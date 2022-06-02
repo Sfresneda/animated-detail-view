@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		37253FC32849157400EF5718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FC22849157400EF5718 /* AppDelegate.swift */; };
 		37253FC52849157400EF5718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FC42849157400EF5718 /* SceneDelegate.swift */; };
-		37253FC72849157400EF5718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FC62849157400EF5718 /* ViewController.swift */; };
 		37253FCA2849157400EF5718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37253FC82849157400EF5718 /* Main.storyboard */; };
 		37253FCC2849157500EF5718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37253FCB2849157500EF5718 /* Assets.xcassets */; };
 		37253FCF2849157500EF5718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37253FCD2849157500EF5718 /* LaunchScreen.storyboard */; };
+		37253FE12849162C00EF5718 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FE02849162C00EF5718 /* UIViewController.swift */; };
+		37253FE32849163F00EF5718 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FE22849163F00EF5718 /* Array.swift */; };
+		37253FE52849165400EF5718 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FE42849165400EF5718 /* SliderViewController.swift */; };
+		37253FE72849166C00EF5718 /* TransitionDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FE62849166C00EF5718 /* TransitionDetailCoordinator.swift */; };
+		37253FE92849168400EF5718 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FE82849168400EF5718 /* InfoViewController.swift */; };
+		37253FEB2849169F00EF5718 /* DetailDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FEA2849169F00EF5718 /* DetailDecorator.swift */; };
+		37253FED284916B700EF5718 /* DetailViewControllerDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FEC284916B700EF5718 /* DetailViewControllerDecorator.swift */; };
+		37253FEF284916F700EF5718 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FEE284916F700EF5718 /* DetailViewController.swift */; };
+		37253FF12849171500EF5718 /* DetailViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FF02849171500EF5718 /* DetailViewBuilder.swift */; };
+		37253FF32849173800EF5718 /* ViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FF22849173800EF5718 /* ViewControllerCell.swift */; };
+		37253FF52849174F00EF5718 /* VCDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FF42849174F00EF5718 /* VCDecorator.swift */; };
+		37253FF72849176E00EF5718 /* ViewControllerDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FF62849176E00EF5718 /* ViewControllerDecorator.swift */; };
+		37253FF92849178500EF5718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FF82849178500EF5718 /* ViewController.swift */; };
+		37253FFB2849179800EF5718 /* ViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37253FFA2849179800EF5718 /* ViewControllerBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37253FBF2849157400EF5718 /* animated detail view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animated detail view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37253FC22849157400EF5718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37253FC42849157400EF5718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37253FC62849157400EF5718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37253FC92849157400EF5718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37253FCB2849157500EF5718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37253FCE2849157500EF5718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37253FD02849157500EF5718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37253FE02849162C00EF5718 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		37253FE22849163F00EF5718 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		37253FE42849165400EF5718 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		37253FE62849166C00EF5718 /* TransitionDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDetailCoordinator.swift; sourceTree = "<group>"; };
+		37253FE82849168400EF5718 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		37253FEA2849169F00EF5718 /* DetailDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDecorator.swift; sourceTree = "<group>"; };
+		37253FEC284916B700EF5718 /* DetailViewControllerDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerDecorator.swift; sourceTree = "<group>"; };
+		37253FEE284916F700EF5718 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		37253FF02849171500EF5718 /* DetailViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewBuilder.swift; sourceTree = "<group>"; };
+		37253FF22849173800EF5718 /* ViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCell.swift; sourceTree = "<group>"; };
+		37253FF42849174F00EF5718 /* VCDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCDecorator.swift; sourceTree = "<group>"; };
+		37253FF62849176E00EF5718 /* ViewControllerDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDecorator.swift; sourceTree = "<group>"; };
+		37253FF82849178500EF5718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37253FFA2849179800EF5718 /* ViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +84,106 @@
 			children = (
 				37253FC22849157400EF5718 /* AppDelegate.swift */,
 				37253FC42849157400EF5718 /* SceneDelegate.swift */,
-				37253FC62849157400EF5718 /* ViewController.swift */,
+				37253FD7284915C200EF5718 /* Extensions */,
+				37253FD8284915C800EF5718 /* Detail */,
+				37253FD9284915CC00EF5718 /* Main */,
+				37253FD6284915B800EF5718 /* Resources */,
+			);
+			path = "animated detail view";
+			sourceTree = "<group>";
+		};
+		37253FD6284915B800EF5718 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				37253FC82849157400EF5718 /* Main.storyboard */,
 				37253FCB2849157500EF5718 /* Assets.xcassets */,
 				37253FCD2849157500EF5718 /* LaunchScreen.storyboard */,
 				37253FD02849157500EF5718 /* Info.plist */,
 			);
-			path = "animated detail view";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37253FD7284915C200EF5718 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37253FE02849162C00EF5718 /* UIViewController.swift */,
+				37253FE22849163F00EF5718 /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		37253FD8284915C800EF5718 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				37253FDD284915DE00EF5718 /* Decorator */,
+				37253FDC284915DB00EF5718 /* Info */,
+				37253FDB284915D500EF5718 /* Coordinator */,
+				37253FDA284915D100EF5718 /* Slider */,
+				37253FEE284916F700EF5718 /* DetailViewController.swift */,
+				37253FF02849171500EF5718 /* DetailViewBuilder.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		37253FD9284915CC00EF5718 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				37253FDF284915F100EF5718 /* Decorator */,
+				37253FDE284915EC00EF5718 /* Cell */,
+				37253FF82849178500EF5718 /* ViewController.swift */,
+				37253FFA2849179800EF5718 /* ViewControllerBuilder.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		37253FDA284915D100EF5718 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				37253FE42849165400EF5718 /* SliderViewController.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		37253FDB284915D500EF5718 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				37253FE62849166C00EF5718 /* TransitionDetailCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		37253FDC284915DB00EF5718 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				37253FE82849168400EF5718 /* InfoViewController.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		37253FDD284915DE00EF5718 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				37253FEA2849169F00EF5718 /* DetailDecorator.swift */,
+				37253FEC284916B700EF5718 /* DetailViewControllerDecorator.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		37253FDE284915EC00EF5718 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				37253FF22849173800EF5718 /* ViewControllerCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		37253FDF284915F100EF5718 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				37253FF42849174F00EF5718 /* VCDecorator.swift */,
+				37253FF62849176E00EF5718 /* ViewControllerDecorator.swift */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +257,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37253FC72849157400EF5718 /* ViewController.swift in Sources */,
+				37253FEF284916F700EF5718 /* DetailViewController.swift in Sources */,
+				37253FF72849176E00EF5718 /* ViewControllerDecorator.swift in Sources */,
+				37253FEB2849169F00EF5718 /* DetailDecorator.swift in Sources */,
+				37253FF12849171500EF5718 /* DetailViewBuilder.swift in Sources */,
+				37253FFB2849179800EF5718 /* ViewControllerBuilder.swift in Sources */,
+				37253FE32849163F00EF5718 /* Array.swift in Sources */,
 				37253FC32849157400EF5718 /* AppDelegate.swift in Sources */,
+				37253FE52849165400EF5718 /* SliderViewController.swift in Sources */,
+				37253FE12849162C00EF5718 /* UIViewController.swift in Sources */,
+				37253FE72849166C00EF5718 /* TransitionDetailCoordinator.swift in Sources */,
+				37253FE92849168400EF5718 /* InfoViewController.swift in Sources */,
 				37253FC52849157400EF5718 /* SceneDelegate.swift in Sources */,
+				37253FF32849173800EF5718 /* ViewControllerCell.swift in Sources */,
+				37253FF52849174F00EF5718 /* VCDecorator.swift in Sources */,
+				37253FF92849178500EF5718 /* ViewController.swift in Sources */,
+				37253FED284916B700EF5718 /* DetailViewControllerDecorator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +421,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6B4M252GN4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "animated detail view/Info.plist";
+				INFOPLIST_FILE = "animated detail view/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +449,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6B4M252GN4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "animated detail view/Info.plist";
+				INFOPLIST_FILE = "animated detail view/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
